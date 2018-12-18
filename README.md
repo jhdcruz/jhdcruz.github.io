@@ -1,2 +1,2 @@
 # About Me
-[A Personal Portfolio](https://jhdcruz.github.io)
+[A Personal Portfolio](https://jhdcruz.github.io/about-me)
