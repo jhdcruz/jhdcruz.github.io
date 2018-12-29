@@ -3,23 +3,47 @@ body {
     padding: 0;
 }
 
+/* Particle-js Background */
+#particle-bg {
+    background-color: #696969;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#overlay {
+    position: relative;
+}
+
+/* Particle-js END */
+
+/* Body */
+
+#profile {
+    border: 3px 3px 3px;
+    border-style: outset;
+}
+
 #profile-pic {
     width: 12em;
 }
 
-/* Particle-js Background */
-#particle-bg {
-    background-color: #484848;
-    position:fixed;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    z-index:0;
-  }
+/*
+#skills {
 
-  #overlay {
-    position: relative;
-  }
+}
+*/
 
-  /* Particle-js END */
+#projects {
+    border: 2px 2px 2px;
+    border-style: outset;
+}
+
+#knowledge {
+    border: 2px 2px 2px;
+    border-style: outset;
+}
+
