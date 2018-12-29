@@ -16,58 +16,61 @@
 
 <body>
 
-  <div id="particle-js">
+  <!-- Particle-js background -->
+  <div id="particle-bg"></div>
 
-    <!-- Profile Section -->
-    <div id="profile" class="container-fluid">
-      <!-- Profile Information -->
-      <img id="profile-pic" src="assets/img/profile.png" class="img-responsive rounded" alt="Profile" />
-      <h3>Joshua Dela Cruz</h3>
-      <p>A Hobbyist Programmer</p>
-      <a href="mailto:jhdcruz00@gmail.com"><i class="fas fa-envelope"></i> jhdcruz00@gmail.com</a>
+    <div id="overlay">
+      <!-- Profile Section -->
+      <div id="profile" class="container-fluid">
+        <!-- Profile Information -->
+        <img id="profile-pic" src="assets/img/profile.png" class="img-responsive rounded" alt="Profile" />
+        <h3>Joshua Dela Cruz</h3>
+        <p>A Hobbyist Programmer</p>
+        <a href="mailto:jhdcruz00@gmail.com"><i class="fas fa-envelope"></i> jhdcruz00@gmail.com</a>
 
-      <!-- Contacts -->
-      <div class="row" id="media-contact">
-        <div id="github">
-          <a href="https://github.com/jhdcruz"><i class="fab fa-github"></i></a>
+        <!-- Contacts -->
+        <div class="row" id="media-contact">
+          <div id="github">
+            <a href="https://github.com/jhdcruz"><i class="fab fa-github"></i></a>
+          </div>
+
+          <div id="stackoverflow">
+            <a href="https://stackoverflow.com/users/7976244/jhdcruz?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+          </div>
+          <div id="twitter">
+            <a href="https://twitter.com/jhdcrux"><i class="fab fa-twitter"></i></a>
+          </div>
+
+          <div id="skype">
+            <a href="https://join.skype.com/invite/ijM0dqBTjyXL"><i class="fab fa-skype"></i></a></div>
         </div>
 
-        <div id="stackoverflow">
-          <a href="https://stackoverflow.com/users/7976244/jhdcruz?tab=profile"><i class="fab fa-stack-overflow"></i></a>
+        <div id="keybase">
+          <a href="https://keybase.io/jhdcruz"><i class="fab fa-keybase"></i></a>
         </div>
-        <div id="twitter">
-          <a href="https://twitter.com/jhdcrux"><i class="fab fa-twitter"></i></a>
-        </div>
-
-        <div id="skype">
-          <a href="https://join.skype.com/invite/ijM0dqBTjyXL"><i class="fab fa-skype"></i></a></div>
       </div>
 
-      <div id="keybase">
-        <a href="https://keybase.io/jhdcruz"><i class="fab fa-keybase"></i></a>
+      <!-- Projects -->
+      <div class="container" id="projects">
+        <h6>Projects:</h6>
+        <!-- Project Contents -->
       </div>
+
+      <!-- Skills -->
+      <div id="skills" class="container">
+        <h6>Skills:</h6>
+      </div>
+
     </div>
 
-    <!-- Projects -->
-    <div class="container" id="projects">
-      <h6>Projects:</h6>
-      <!-- Project Contents -->
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script type="text/javascript">
+      /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+      particlesJS.load('particle-bg', './assets/particlesjs-config.json', function () {
+        console.log('particles.js config loaded');
+      });
+    </script>
 
-    <!-- Skills -->
-    <div id="skills" class="container">
-      <h6>Skills:</h6>
-    </div>
-
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-  <script type="text/javascript">
-    /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
-    particlesJS.load('particles-js', './assets/particlesjs-config.json', function () {
-      console.log('callback - particles.js config loaded');
-    });
-  </script>
 
 </body>
 
