@@ -1,2 +1,6 @@
+# IDE Config
 .idea/
 .vscode/
+
+# Dependencies
+node_modules/
