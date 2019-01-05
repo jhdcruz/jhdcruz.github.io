@@ -21,26 +21,41 @@ body {
 /* Particle-js END */
 
 /* Body */
-
 #profile {
-    border: 3px 3px 3px;
-    border-style: outset;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#profile.card {
+    height: 335px;
 }
 
 #profile-pic {
     width: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+#media-contact {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#github,
+#stackoverflow,
+#keybase,
+#twitter {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #skills {
     margin: 50px;
 }
 
-#projects {
-    border: 2px 2px 2px;
-    border-style: outset;
-}
-
-#knowledge {
-    border: 2px 2px 2px;
-    border-style: outset;
+#charts {
+    display: inline-block;
 }
