@@ -56,6 +56,10 @@ body {
     margin: 50px;
 }
 
+.project-section {
+    margin: 7px;
+}
+
 #charts {
     display: inline-block;
 }
