@@ -5,7 +5,7 @@ body {
 
 /* Particle-js Background */
 #particle-bg {
-    background-color: #696969;
+    background-color: white;
     position: fixed;
     top: 0;
     right: 0;
@@ -21,6 +21,8 @@ body {
 /* Particle-js END */
 
 /* Body */
+/* From top to bottom */
+
 #profile {
     text-align: center;
     margin-top: 20px;
@@ -28,6 +30,7 @@ body {
 
 #profile.card {
     height: 335px;
+    opacity: 80%;
 }
 
 #profile-pic {
@@ -50,16 +53,42 @@ body {
 #twitter {
     margin-left: 5px;
     margin-right: 5px;
+    width: 10px;
 }
 
 #skills {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h5.font-weight-normal {
+    text-align: center;
 }
 
 .project-section {
     margin: 7px;
 }
 
+.project-redirect {
+    float: right;
+}
+
+.languages-section {
+    margin: 7px;
+}
+
+.frameworks-section {
+    margin: 7px;
+}
+
+.language-type {
+    margin: 7px;
+}
+
 #charts {
     display: inline-block;
+}
+
+h4.font-weight-normal {
+    text-align: center;
 }
