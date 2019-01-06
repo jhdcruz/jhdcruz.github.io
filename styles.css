@@ -21,7 +21,6 @@ body {
 /* Particle-js END */
 
 /* Body */
-/* From top to bottom */
 
 #profile {
     text-align: center;
@@ -30,7 +29,6 @@ body {
 
 #profile.card {
     height: 335px;
-    opacity: 80%;
 }
 
 #profile-pic {
@@ -65,24 +63,16 @@ h5.font-weight-normal {
     text-align: center;
 }
 
-.project-section {
-    margin: 7px;
+.project-section, .languages-section, .frameworks-section {
+    margin: 15px;
 }
 
 .project-redirect {
     float: right;
 }
 
-.languages-section {
-    margin: 7px;
-}
-
-.frameworks-section {
-    margin: 7px;
-}
-
 .language-type {
-    margin: 7px;
+    margin: 10px;
 }
 
 #charts {
