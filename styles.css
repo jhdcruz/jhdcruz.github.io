@@ -28,7 +28,7 @@ body {
 }
 
 #profile.card {
-    height: 470px;
+    height: 480px;
     width: 60%;
     align-content: center;
     margin-left: auto;
@@ -152,11 +152,13 @@ h5.font-weight-normal {
     display: inline-grid;
 }
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+
+/* Media Queries */
+/* Extra small devices (portrait phones, less than NaN:px) */
+@media only screen and (max-width: 360px) {
 
     #profile.card {
-        height: 480px;
+        height: 580px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -164,11 +166,22 @@ h5.font-weight-normal {
     }
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media only screen and (max-width: 658px) {
 
     #profile.card {
-        height: 490px;
+        height: 500px;
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Small devices (landscape phones, NaN:px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+    #profile.card {
+        height: 530px;
         width: 70%;
         align-content: center;
         margin-left: auto;
@@ -176,11 +189,11 @@ h5.font-weight-normal {
     }
 }
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
+/* Medium devices (tablets, NaN:px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
 
     #profile.card {
-        height: 480px;
+        height: 510px;
         width: 60%;
         align-content: center;
         margin-left: auto;
