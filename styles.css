@@ -24,12 +24,12 @@ body {
 
 #profile {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #profile.card {
-    height: 350px;
-    /* width: 360px; */
+    height: 430px;
+    width: 50%;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -44,7 +44,7 @@ body {
 }
 
 #fullname {
-    margin: 0;
+    margin-top: 10px;
 }
 
 #subtitle {
@@ -102,12 +102,13 @@ h5.font-weight-normal {
 
 .shouldI {
     text-align: center;
-    margin-bottom: 25px; 
+    margin-bottom: 25px;
 }
 
 #thinking {
     width: 1.3em;
 }
+
 /* Superscript */
 .development {
     font-size: 12px;
@@ -143,13 +144,45 @@ h5.font-weight-normal {
 
 
 /* Extra small devices (portrait phones, less than 576px) */
-/* @media (max-width: 575.98px) {} */
+@media (max-width: 575.98px) {
+    #profile.card {
+        height: 430px;
+        width: 90%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 /* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) {} */
+/* @media (max-width: 767.98px) {
+    #profile.card {
+        height: 430px;
+        width: 50%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
 
 /* Medium devices (tablets, less than 992px) */
-/* @media (max-width: 991.98px) {} */
+/* @media (max-width: 991.98px) {
+    #profile.card {
+        height: 430px;
+        width:60%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
 
 /* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) {} */
+/* @media (max-width: 1199.98px) {
+    #profile.card {
+        height: 430px;
+        width: 50%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
