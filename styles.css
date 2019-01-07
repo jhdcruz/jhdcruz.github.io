@@ -28,8 +28,8 @@ body {
 }
 
 #profile.card {
-    height: 430px;
-    width: 50%;
+    height: 470px;
+    width: 60%;
     align-content: center;
     margin-left: auto;
     margin-right: auto;
@@ -50,6 +50,16 @@ body {
 #subtitle {
     margin-top: 2px;
     margin-bottom: 2px;
+}
+
+.biography {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.interest {
+    color: grey;
+    margin: 0;
 }
 
 #media-contact {
@@ -142,47 +152,44 @@ h5.font-weight-normal {
     display: inline-grid;
 }
 
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+
     #profile.card {
-        height: 430px;
-        width: 90%;
+        height: 480px;
+        width: 100%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
 }
 
-/* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) {
-    #profile.card {
-        height: 430px;
-        width: 50%;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-} */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
 
-/* Medium devices (tablets, less than 992px) */
-/* @media (max-width: 991.98px) {
     #profile.card {
-        height: 430px;
-        width:60%;
+        height: 490px;
+        width: 70%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
-} */
+}
 
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) {
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
     #profile.card {
-        height: 430px;
-        width: 50%;
+        height: 480px;
+        width: 60%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
-} */
+}
+
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
