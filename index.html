@@ -9,9 +9,10 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-  <title>About Me | Joshua Dela Cruz</title>
+  <link rel="stylesheet" href="./styles.css">
+  <title>About me | Joshua Dela Cruz</title>
   <meta name="author" content="Joshua Dela Cruz">
+  <meta name="description" content="My Portfolio, stating my skills and specialties as an Individual.">
 </head>
 
 <body>
@@ -23,9 +24,9 @@
 
     <div class="card" id="profile">
       <!-- Profile Information -->
-      <img id="profile-pic" src="assets/img/profile.png" class="img-fluid rounded" alt="Profile" />
-      <h3>Joshua Dela Cruz</h3>
-      <strong class="font-italic">A Hobbyist Programmer</strong>
+      <img id="profile-pic" src="assets/img/profile.png" class="img-fluid rounded" alt="Profile" draggable="false" />
+      <h3 class="font-weight-normal" id="fullname">Joshua Dela Cruz</h3>
+      <p class="font-weight-bold font-italic" id="subtitle">A Hobbyist Programmer</p>
       <a href="mailto:jhdcruz00@gmail.com"><i class="fas fa-envelope"></i> jhdcruz00@gmail.com</a>
 
       <!-- Contacts -->
@@ -58,7 +59,8 @@
     <!-- Skills Sections -->
     <div class="container" id='skills'>
       <div class="row">
-        <!-- Projects -->
+
+        <!-- Projects Grid -->
         <div class="col-md" id="projects">
           <h5 class="font-weight-normal">Projects:</h5>
           <div class="card project-section" style="width: 100%;">
@@ -68,7 +70,9 @@
                 Desktop Messages
               </h5>
               <p class="card-text">Android Messages for Desktop.</p>
-              <a href="https://github.com/jhdcruz/Desktop-Messages" class="btn btn-primary project-redirect">View Project</a>
+              <p class="languages-used">Electron, Javascript</p>
+              <a href="https://github.com/jhdcruz/Desktop-Messages" class="btn btn-primary project-redirect">View
+                Project</a>
             </div>
           </div>
 
@@ -76,9 +80,10 @@
             <div class="card-body">
               <h5 class="card-title">
                 <img src="./assets/img/re-notes.png" id="re-notes" alt="Re;Notes" />
-                Re;Notes
+                Re;Notes <sup class="development">(Development Phase)</sup>
               </h5>
               <p class="card-text">A Modern Notebook designed for everyday note-taking and compilation.</p>
+              <p class="languages-used">Electron, JSX, React</p>
               <a href="https://github.com/jhdcruz/Re-Notes" class="btn btn-primary project-redirect">View Project</a>
             </div>
           </div>
@@ -86,24 +91,33 @@
           <div class="card project-section" style="width: 100%;">
             <div class="card-body">
               <h5 class="card-title">
-                <img src="./assets/img/re-task.png" id="re-notes" alt="Re;Notes" draggable="false" />
-                Re;Tasks
+                <img src="./assets/img/re-task.png" id="re-tasks" alt="Re;Tasks" draggable="false" />
+                Re;Tasks <sup class="development">(Development Phase)</sup>
               </h5>
               <p class="card-text">A Todo app that features task-resetting</p>
+              <p class="languages-used">Electron, JSX, React</p>
               <a href="https://github.com/jhdcruz/re-task" class="btn btn-primary project-redirect">View Project</a>
             </div>
           </div>
 
         </div>
 
-        <!-- Knowledge Graph -->
-        <div class="col-md" id="knowledge">
+        <!-- Languages Grid -->
+        <div class="col-md">
           <h5 class="font-weight-normal">Languages:</h5>
           <div class="card languages-section">
-            <p class="language-type">JavaScript (ES5, ES6):</p>
+            <p class="language-type">JavaScript (w/o ES5, ES6, JSX):</p>
             <div class="progress">
               <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                 aria-valuemax="100">7 / 10</div>
+            </div>
+          </div>
+
+          <div class="card languages-section">
+            <p class="language-type">TypeScript:</p>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+                aria-valuemax="100">2 / 10</div>
             </div>
           </div>
 
@@ -115,16 +129,13 @@
             </div>
           </div>
 
-          <div class="card languages-section">
-            <p class="language-type">NaN:</p>
-            <div class="progress">
-              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
-                aria-valuemax="100"></div>
-            </div>
-          </div>
+
+          <p class="shouldI">Should I Include HTML5? <img src="./assets/img/thinking.png" class="img-fluid" id="thinking"
+              alt="" draggable="false" /></p>
 
         </div>
 
+        <!-- Frameworks Grid -->
         <div class="col-md">
           <h5 class="font-weight-normal">Frameworks:</h5>
 
@@ -163,8 +174,8 @@
           <div class="card frameworks-section">
             <p class="language-type">React-Native:</p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100">Still Studying...</div>
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 100%"
+                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Still Studying...</div>
             </div>
           </div>
         </div>
@@ -173,31 +184,44 @@
     </div>
 
     <!-- Graphs/Charts -->
-    <div class="container" id="charts">
-      <div class="row container">
+    <div class="container" id="graphs">
+      <div class="row">
 
-        <h4 class="font-weight-normal">Charts:</h4>
+        <div class="col-md">
+          <a href="https://wakatime.com/@jhdcruz">
+            <h5 class="font-weight-normal wakatime-link">Graphs: <i class="fas fa-link"></i></h5>
+          </a>
+        </div>
 
-        <div class="col-md wakatime-coding-activity">
-          <figure>
+        <!-- Makes another row -->
+        <div class="w-100"></div>
+
+        <div class="col-md">
+          <figure class="wakatime-coding-activity">
             <embed src="https://wakatime.com/share/@jhdcruz/afa18d06-85d1-49f5-ac38-6342b77d5ec0.svg"></embed>
           </figure>
         </div>
 
-        <div class="col-md wakatime-languages-chart">
-          <figure>
+        <div class="col-md">
+          <figure class="wakatime-languages-chart">
             <embed src="https://wakatime.com/share/@jhdcruz/3fa5cc79-c0da-49c8-9b07-2160f55e827c.svg"></embed>
           </figure>
         </div>
 
       </div>
+
     </div>
+  </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
   <!-- ParticleJS Configuration -->
-  <script type="text/javascript">particlesJS.load('particle-bg','./assets/particlesjs-config.json',function(){console.log('particles.js config loaded');});</script>
+  <script type="text/javascript">
+    particlesJS.load('particle-bg', './assets/particlesjs-config.json', function () {
+      console.log('particles.js config loaded');
+    });
+  </script>
 
 </body>
 

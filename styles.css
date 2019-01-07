@@ -20,7 +20,7 @@ body {
 
 /* Particle-js END */
 
-/* Body */
+/* Body Content */
 
 #profile {
     text-align: center;
@@ -28,7 +28,11 @@ body {
 }
 
 #profile.card {
-    height: 335px;
+    height: 350px;
+    /* width: 360px; */
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #profile-pic {
@@ -39,19 +43,41 @@ body {
     margin-top: 15px;
 }
 
+#fullname {
+    margin: 0;
+}
+
+#subtitle {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 #media-contact {
     display: inline-flex;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
 }
 
 #github,
 #stackoverflow,
 #keybase,
 #twitter {
-    margin-left: 5px;
-    margin-right: 5px;
-    width: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-stack-overflow {
+    color: orange;
+}
+
+.fa-keybase {
+    color: #DE6D21;
 }
 
 #skills {
@@ -63,22 +89,67 @@ h5.font-weight-normal {
     text-align: center;
 }
 
-.project-section, .languages-section, .frameworks-section {
+.project-section {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.languages-section,
+.frameworks-section {
     margin: 15px;
 }
 
+.shouldI {
+    text-align: center;
+    margin-bottom: 25px; 
+}
+
+#thinking {
+    width: 1.3em;
+}
+/* Superscript */
+.development {
+    font-size: 12px;
+    color: #990001;
+}
+
+/* END Superscipt */
+
 .project-redirect {
     float: right;
+}
+
+.languages-used {
+    color: rgb(172, 172, 172);
+    margin-top: 5px;
+    float: left;
 }
 
 .language-type {
     margin: 10px;
 }
 
-#charts {
-    display: inline-block;
+.wakatime-link {
+    color: black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h4.font-weight-normal {
-    text-align: center;
+.wakatime-graph {
+    display: inline-grid;
 }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* @media (max-width: 575.98px) {} */
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) {} */
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {} */
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {} */
