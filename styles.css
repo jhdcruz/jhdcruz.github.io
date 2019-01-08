@@ -75,7 +75,8 @@ body {
 #twitter {
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 2em;
+    margin-bottom: 5px;
+    font-size: 1.9em;
 }
 
 .fa-github {
@@ -155,17 +156,6 @@ h5.font-weight-normal {
 
 /* Media Queries */
 /* Extra small devices (portrait phones, less than NaN:px) */
-@media only screen and (max-width: 360px) {
-
-    #profile.card {
-        height: 580px;
-        width: 100%;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
 @media only screen and (max-width: 658px) {
 
     #profile.card {
@@ -178,14 +168,19 @@ h5.font-weight-normal {
 }
 
 /* Small devices (landscape phones, NaN:px and up) */
-@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+@media only screen and (min-width: 659px) and (max-width: 767.98px) {
 
     #profile.card {
-        height: 530px;
-        width: 70%;
+        height: 510px;
+        width: 80%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .interest {
+        margin-left: 3px;
+        margin-right: 3px;
     }
 }
 
@@ -194,7 +189,7 @@ h5.font-weight-normal {
 
     #profile.card {
         height: 510px;
-        width: 60%;
+        width: 70%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
