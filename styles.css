@@ -155,11 +155,10 @@ h5.font-weight-normal {
 
 
 /* Media Queries */
-/* Extra small devices (portrait phones, less than NaN:px) */
-@media only screen and (max-width: 658px) {
-
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width: 320px) and (max-width: 415px) {
     #profile.card {
-        height: 500px;
+        height: 550px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -167,37 +166,35 @@ h5.font-weight-normal {
     }
 }
 
-/* Small devices (landscape phones, NaN:px and up) */
-@media only screen and (min-width: 659px) and (max-width: 767.98px) {
-
+/* Portrait/Wide Devices */
+@media only screen and (min-width: 416px) and (max-width: 620px) {
     #profile.card {
         height: 510px;
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Portrait/Wider Devices */
+@media only screen and (min-width: 621px) and (max-width: 765px) {
+    #profile.card {
+        height: 510px;
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #profile.card {
+        height: 480px;
         width: 80%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
     }
-
-    .interest {
-        margin-left: 3px;
-        margin-right: 3px;
-    }
 }
-
-/* Medium devices (tablets, NaN:px and up) */
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {
-
-    #profile.card {
-        height: 510px;
-        width: 70%;
-        align-content: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) and (max-width: 1199.98px) { ... } */
-
-/* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { ... } */
