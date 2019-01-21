@@ -24,7 +24,7 @@ body {
 /* Top => Bottom */
 #profile {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #profile.card {
@@ -91,10 +91,11 @@ body {
     color: #DE6D21;
 }
 
-#skills {
+/* Replaced with <br> tag */
+/* #skills {
     margin-top: 50px;
     margin-bottom: 50px;
-}
+} */
 
 h5.font-weight-normal {
     text-align: center;
@@ -108,7 +109,9 @@ h5.font-weight-normal {
 
 .skill-section {
     margin: 15px;
+    width: 35%;
 }
+
 
 .extra-section {
     width: 32%;
