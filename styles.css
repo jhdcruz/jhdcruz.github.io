@@ -24,7 +24,7 @@ body {
 /* Top => Bottom */
 #profile {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 #profile.card {
@@ -89,11 +89,6 @@ body {
 
 .fa-keybase {
     color: #DE6D21;
-}
-
-#skills {
-    margin-top: 50px;
-    margin-bottom: 50px;
 }
 
 h5.font-weight-normal {
