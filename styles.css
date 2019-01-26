@@ -107,7 +107,9 @@ h5.font-weight-normal {
 }
 
 .extra-section {
-    width: 32%;
+    width: 100%;
+    margin: 10px;
+    padding: 0;
 }
 
 #desktop-messenger {
@@ -130,6 +132,10 @@ h5.font-weight-normal {
 }
 
 /* END Superscipt */
+
+.progress {
+    border-radius: 0;
+}
 
 .project-redirect {
     float: right;
