@@ -24,7 +24,8 @@ body {
 /* Top => Bottom */
 #profile {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 #profile.card {
@@ -107,6 +108,10 @@ h5.font-weight-normal {
 
 .extra-section {
     width: 32%;
+}
+
+#desktop-messenger {
+    width: 35px;
 }
 
 .shouldI {
