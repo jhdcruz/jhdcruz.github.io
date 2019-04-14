@@ -29,7 +29,7 @@ body {
 }
 
 #profile.card {
-    height: 480px;
+    height: 470px;
     width: 60%;
     align-content: center;
     margin-left: auto;
@@ -46,16 +46,18 @@ body {
 
 #fullname {
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 #subtitle {
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 0;
+    margin-bottom: 6px;
 }
 
 .biography {
     margin-left: 18px;
     margin-right: 18px;
+    margin-bottom: 10px;
 }
 
 .interest {
@@ -68,6 +70,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
+    margin-bottom: 0;
 }
 
 #github,
@@ -167,7 +170,7 @@ h5.font-weight-normal {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 415px) {
     #profile.card {
-        height: 550px;
+        height: 540px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -178,7 +181,7 @@ h5.font-weight-normal {
 /* Portrait/Wide Devices */
 @media only screen and (min-width: 416px) and (max-width: 620px) {
     #profile.card {
-        height: 510px;
+        height: 500px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -189,7 +192,7 @@ h5.font-weight-normal {
 /* Portrait/Wider Devices */
 @media only screen and (min-width: 621px) and (max-width: 765px) {
     #profile.card {
-        height: 510px;
+        height: 500px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -200,7 +203,7 @@ h5.font-weight-normal {
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #profile.card {
-        height: 480px;
+        height: 470px;
         width: 80%;
         align-content: center;
         margin-left: auto;
