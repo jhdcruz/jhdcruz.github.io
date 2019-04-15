@@ -29,7 +29,7 @@ body {
 }
 
 #profile.card {
-    height: 470px;
+    height: 480px;
     width: 60%;
     align-content: center;
     margin-left: auto;
@@ -55,8 +55,8 @@ body {
 }
 
 .biography {
-    margin-left: 18px;
-    margin-right: 18px;
+    margin-left: 22px;
+    margin-right: 22px;
     margin-bottom: 10px;
 }
 
@@ -168,9 +168,29 @@ h5.font-weight-normal {
 
 /* Media Queries */
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width: 320px) and (max-width: 415px) {
+@media only screen and (min-width: 230px) and (max-width: 319px) {
     #profile.card {
-        height: 540px;
+        height: 560px;
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    #profile.card {
+        height: 530px;
+        width: 100%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 449px) {
+    #profile.card {
+        height: 535px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -179,9 +199,9 @@ h5.font-weight-normal {
 }
 
 /* Portrait/Wide Devices */
-@media only screen and (min-width: 416px) and (max-width: 620px) {
+@media only screen and (min-width: 450px) and (max-width: 620px) {
     #profile.card {
-        height: 500px;
+        height: 490px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -192,7 +212,7 @@ h5.font-weight-normal {
 /* Portrait/Wider Devices */
 @media only screen and (min-width: 621px) and (max-width: 765px) {
     #profile.card {
-        height: 500px;
+        height: 495px;
         width: 100%;
         align-content: center;
         margin-left: auto;
@@ -204,7 +224,17 @@ h5.font-weight-normal {
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     #profile.card {
         height: 470px;
-        width: 80%;
+        width: 95%;
+        align-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    #profile.card {
+        height: 465px;
+        width: 85%;
         align-content: center;
         margin-left: auto;
         margin-right: auto;
