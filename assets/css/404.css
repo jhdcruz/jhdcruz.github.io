@@ -14,6 +14,7 @@ body {
     z-index: 0;
 }
 
-div {
+#err {
     text-align: center;
+    align-content: center;
 }
