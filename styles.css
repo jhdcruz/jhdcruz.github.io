@@ -71,10 +71,7 @@ body {
 
 #media-contact {
     display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    margin-bottom: 0;
+    margin: auto
 }
 
 #github,
@@ -141,13 +138,13 @@ h5.font-weight-normal {
     width: 1.3em;
 }
 
-/* Superscript */
+/* Superscript for in-development projects*/
+/*
 .development {
     font-size: 12px;
     color: #990001;
 }
-
-/* END Superscipt */
+*/
 
 .progress {
     border-radius: 0;
