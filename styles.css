@@ -183,6 +183,11 @@ h5.font-weight-normal {
     padding-bottom: 12px;
 }
 
+.copyright-link {
+    text-decoration: underline;
+    color: black;
+}
+
 
 /* Media Queries */
 /* Smartphones (portrait and landscape) ----------- */
