@@ -21,6 +21,11 @@ body {
 
 /* Particle-js END */
 
+#maintenance {
+    margin-top: 5px;
+    text-align: center;
+}
+
 /* Body Content */
 /* Top => Bottom */
 #profile {
