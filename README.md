@@ -1,4 +1,5 @@
-# About Me [![Netlify Status](https://api.netlify.com/api/v1/badges/6ed1b6c7-d083-4284-aed9-ef8f9b2df98e/deploy-status)](https://app.netlify.com/sites/jhdcruz/deploys)
+# About Me [![Netlify Status](https://api.netlify.com/api/v1/badges/6ed1b6c7-d083-4284-aed9-ef8f9b2df98e/deploy-status)](https://app.netlify.com/sites/jhdcruz/deploys) [![CodeFactor](https://www.codefactor.io/repository/github/jhdcruz/jhdcruz.github.io/badge)](https://www.codefactor.io/repository/github/jhdcruz/jhdcruz.github.io)
+
 [A Personal Portfolio](https://jhdcruz.github.io/)
 
 #### 3rd-Party Credits
