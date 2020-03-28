@@ -173,7 +173,7 @@ h5.font-weight-normal {
     margin: 10px;
 }
 
-.wakatime-charts {
+.wakatime-charts figure {
     box-shadow: 0px 1px 12px #555;
     margin: 10px 0.5em;
 }
