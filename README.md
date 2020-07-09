@@ -1,4 +1,4 @@
-> Major revamp is ongoing, [take a sneek peek](https://github.com/jhdcruz/jhdcruz.github.io-v2)!
+> Major revamp is ongoing, [take a sneak peek](https://github.com/jhdcruz/jhdcruz.github.io-v2)!
 
 > Feedbacks are very much welcomed.
 
